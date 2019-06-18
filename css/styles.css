@@ -2,9 +2,11 @@ body {
   text-align: center;
   font-family: Arial;
   font-size: 16px;
-  color: blue;
+  color: #333;
   margin: 0;
   padding: 0;
+  font-size: 16px;
+  background: #1e1f24;
 }
 
 #cabecera {
@@ -14,6 +16,11 @@ body {
   padding: 0.5em;
   font-weight: bold;
   box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+#cabecera #logo {
+  width: 20px;
+  vertical-align: middle;
 }
 
 #cabecera #tagline {
@@ -36,4 +43,5 @@ body {
 
 #post {
   padding: 1em;
+  background: white;
 }
